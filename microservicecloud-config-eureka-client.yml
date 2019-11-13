@@ -4,7 +4,7 @@
     - dev
 ---
 server: 
-  port: 7001 #注册中心占用7001端口,冒号后面必须要有空格
+  port: 7001 #册中心占用7001端口,冒号后面必须要有空格
    
 spring: 
   profiles: dev
@@ -13,7 +13,7 @@ spring:
     
 eureka: 
   instance: 
-    hostname: eureka7001.com #冒号后面必须要有空格
+    hostname: eureka7001.com #冒号后面必须要有空格#
   client: 
     register-with-eureka: false #当前的eureka-server自己不注册进服务列表中
     fetch-registry: false #不通过eureka获取注册信息
